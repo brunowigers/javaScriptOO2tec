@@ -27,3 +27,7 @@ class Gato extends Animal{
         console.log("MIAU MIAU MIAU MIAU")
     }
 }
+
+const meusAnimais = [new Cachorro(), new Touro(), new Cabra(), new Gato()];{
+meusAnimais[i].fazerSom();
+}
